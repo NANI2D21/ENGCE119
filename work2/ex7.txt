@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+
+int main()
+{
+    int pid;
+    pid = fork(); 
+    if (pid != 0) 
+    {
+        while (1) 
+        {
+            sleep(10); 
+            printf("65543206078-9 Weerawut Lukkanatorn\n");
+        }
+    }
+    else 
+    {
+        exit(42); 
+    }
+
+
+}
